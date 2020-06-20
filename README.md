@@ -34,7 +34,9 @@ have to manually install the modules that Spyder uses (as specified in the impor
 Only one url may be passed in per target. However, an arbitrary amount of targets may be added. In addition, 
 the url must abide by the [Crawling Rules](#Crawling-Rules).
 
-Example url: http://quotes.toscrape.com/
+Example url for a specific target: 
+
+http://quotes.toscrape.com/
 
 Each target can have an arbitrary number of css selector key-selector pairs. The css selectors must be passed 
 key-selector pairs where the key is the name that you want the scraped data to have assigned to it in the output files
@@ -46,7 +48,7 @@ In addition, key selector pairs must be separated by one comma and one space in 
 
 You may use element names and class names as css selectors when using Spyder.
 
-Here is an example input of several css selectors for a specific target:
+Example input of several css selectors for a specific target:
 
 (quote=.quote), (paragraph=p), (header=h1)
 
